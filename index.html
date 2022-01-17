@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="theme">
+    <div id="main">
+      <h1>Coding Resume</h1>
+      <p id="displayStatement">This site is currently in <span id="displayMode1">one</span>, at 5<span id="mSwitcher">om</span> it will transition into <span id="displayMode2">two</span></p>
+
+    <div id="dropdown-container">
+      <select id="dropdown" onChange="return setResume()">
+          <option>Choose One</option>
+          <option>Introduction</option>
+          <option>Projects</option>
+          <option>Experience</option>
+          <option>Skills</option>
+          <option>Certificates</option>
+          <option>Contact</option>
+      </select>
+    </div>
+    <div id="textbox-container">        
+      <textarea disabled id="textfield"></textarea>
+    </div>
+  </div>  
+    <script src="script.js"></script>
+  </body>
+</html>
